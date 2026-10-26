@@ -1,0 +1,64 @@
+{
+  "classification_metrics": {
+    "val_f1_macro": 1.0,
+    "val_precision_macro": 1.0,
+    "val_recall_macro": 1.0
+  },
+  "per_class_report": {
+    "BENIGN": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2835.0
+    },
+    "DoS / DDoS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 377.0
+    },
+    "PortScan": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 249.0
+    },
+    "BruteForce": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 143.0
+    },
+    "Botnet (C2)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 94.0
+    },
+    "Web Attack": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 52.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3750.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3750.0
+    }
+  },
+  "autoencoder_threshold": 0.2816618755047177,
+  "autoencoder_fpr": 0.03209876543209877,
+  "autoencoder_tpr": 0.9475409836065574,
+  "total_samples": 15000,
+  "benign_samples": 11338,
+  "attack_samples": 3662
+}

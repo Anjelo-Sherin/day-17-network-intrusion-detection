@@ -1,0 +1,46 @@
+{
+  "anomaly_threshold": 0.2816618755047177,
+  "feature_columns": [
+    "flow_duration",
+    "tot_fwd_pkts",
+    "tot_bwd_pkts",
+    "tot_len_fwd_pkts",
+    "tot_len_bwd_pkts",
+    "fwd_pkt_len_mean",
+    "bwd_pkt_len_mean",
+    "flow_bytes_per_s",
+    "flow_pkts_per_s",
+    "flow_iat_mean",
+    "flow_iat_std",
+    "fwd_iat_tot",
+    "bwd_iat_tot",
+    "fin_flag_cnt",
+    "syn_flag_cnt",
+    "rst_flag_cnt",
+    "psh_flag_cnt",
+    "ack_flag_cnt",
+    "urg_flag_cnt",
+    "down_up_ratio",
+    "pkt_size_avg",
+    "init_win_bytes_fwd",
+    "init_win_bytes_bwd",
+    "dst_port",
+    "protocol"
+  ],
+  "attack_classes": [
+    "BENIGN",
+    "DoS / DDoS",
+    "PortScan",
+    "BruteForce",
+    "Botnet (C2)",
+    "Web Attack"
+  ],
+  "label_to_idx": {
+    "BENIGN": 0,
+    "DoS / DDoS": 1,
+    "PortScan": 2,
+    "BruteForce": 3,
+    "Botnet (C2)": 4,
+    "Web Attack": 5
+  }
+}
